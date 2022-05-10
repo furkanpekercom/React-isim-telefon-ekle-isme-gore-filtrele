@@ -1,0 +1,39 @@
+
+.listArea{
+    
+}
+
+input{
+    margin-top: 10px;
+    padding: 8px;
+    height: 25px;
+    width: 96.1%;
+    text-indent: 5px;
+    font-weight: 200;
+    font-size:.9em;
+}
+
+.list{
+    margin-top: 10px;
+}
+
+.list li{
+    padding: 8px;
+    background-color: brown;
+    color: aliceblue;
+}
+
+.list li span{
+    display: block;
+}
+
+.list li span.name{
+    float: left;
+}
+
+.list li span.phone{
+    float: right;
+}
+.list li span.clearfix{
+    clear:both;
+}
